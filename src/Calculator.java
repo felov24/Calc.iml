@@ -4,8 +4,6 @@ public class Calculator {
     static boolean isRome = false;
 
     static String[] read(String inString) throws ScanerException {   // Принимаем входящую строку
-//        System.out.println("Введиде выряжение для решения, формат 'a + b', через пробел.Допускаются числа от 1 до 10 или от I до X включительно:");
-//        String stringIn = new Scanner(System.in).nextLine().trim();
 
         String[] words = inString.split(" ");
 
