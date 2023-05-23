@@ -25,9 +25,9 @@ public class Result {
             throw new Exception("В римской системе нет отрицательных чисел");
         }
         if (Calculator.isRome) {
-            System.out.println("Ответ " + Converter.convertArabToRoman(result));
+            System.out.println(Converter.convertArabToRoman(result));
         } else {
-            System.out.println("Ответ: "  + result);
+            System.out.println(result);
         }
         return null;
     }
